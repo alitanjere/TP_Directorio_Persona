@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana García",
+    "edad": 28,
+    "email": "ana.garcia@example.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Luis Fernández",
+    "edad": 42,
+    "email": "luis.fernandez@example.com"
+  },
+  {
+    "id": 3,
+    "nombre": "Sofía Rodríguez",
+    "edad": 22,
+    "email": "sofia.rodriguez@example.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos López",
+    "edad": 35,
+    "email": "carlos.lopez@example.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Laura Martínez",
+    "edad": 55,
+    "email": "laura.martinez@example.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Pedro Pérez",
+    "edad": 19,
+    "email": "pedro.perez@example.com"
+  },
+  {
+    "id": 7,
+    "nombre": "Isabel Gómez",
+    "edad": 31,
+    "email": "isabel.gomez@example.com"
+  },
+  {
+    "id": 8,
+    "nombre": "Miguel Sánchez",
+    "edad": 60,
+    "email": "miguel.sanchez@example.com"
+  },
+  {
+    "id": 9,
+    "nombre": "Elena Torres",
+    "edad": 25,
+    "email": "elena.torres@example.com"
+  },
+  {
+    "id": 10,
+    "nombre": "Javier Ramírez",
+    "edad": 38,
+    "email": "javier.ramirez@example.com"
+  }
+]

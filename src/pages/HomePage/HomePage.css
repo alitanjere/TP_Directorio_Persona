@@ -1,0 +1,26 @@
+.home-page {
+  padding: 20px 0; /* Remove horizontal padding, container will handle it */
+}
+
+.home-page h1 {
+  text-align: center;
+  color: #2d3748; /* Darker heading color */
+  margin-bottom: 2rem; /* Increased margin */
+  font-size: 2rem; /* Adjusted font size */
+  font-weight: 600; /* Bolder title */
+}
+
+.personas-list {
+  display: grid;
+  /* Ensure minmax is not too small, 280px is a good minimum for cards with padding */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px; /* Slightly increased gap */
+}
+
+/* Responsive adjustments for the grid */
+@media (max-width: 600px) {
+  .personas-list {
+    grid-template-columns: 1fr; /* Single column on very small screens */
+    gap: 20px;
+  }
+}

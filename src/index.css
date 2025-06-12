@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Slightly softer background */
+  color: #333; /* Default text color */
+  line-height: 1.6; /* Improved readability */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  color: #1a202c; /* Darker color for headings */
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Basic styling for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.button-like, button.button-like { /* Added button.button-like for actual buttons */
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px 0; /* Adjusted margin */
+  background-color: #007bff;
+  color: white !important; /* Ensure text is white */
+  text-decoration: none !important; /* Ensure no underline */
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+a.button-like:hover, button.button-like:hover {
+  background-color: #0056b3;
+  color: white !important;
+}
+
+/* Basic table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Added margin bottom */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+th, td {
+  border: 1px solid #e2e8f0; /* Lighter border */
+  padding: 10px 12px; /* Adjusted padding */
+  text-align: left;
+}
+
+th {
+  background-color: #f7fafc; /* Very light grey for headers */
+  font-weight: 600; /* Bolder header text */
+  color: #4a5568; /* Header text color */
+}
+
+/* Basic form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Slightly adjusted gap */
+  max-width: 500px; /* Increased max-width for better layout */
+  margin: 30px auto; /* Increased margin */
+  padding: 25px; /* Increased padding */
+  border: 1px solid #e2e8f0; /* Lighter border */
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for forms */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+form label {
+  font-weight: 600; /* Bolder labels */
+  color: #2d3748; /* Label text color */
+  margin-bottom: 0.25rem; /* Space below label */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea { /* Added textarea */
+  padding: 12px; /* Increased padding */
+  border: 1px solid #cbd5e0; /* Softer border */
+  border-radius: 4px;
+  font-size: 1rem; /* Consistent font size */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0,123,255,.25); /* Focus shadow */
+  outline: none;
+}
+
+form button[type="submit"] { /* More specific selector for submit buttons in forms */
+  padding: 12px 20px; /* Adjusted padding */
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px; /* Consistent border-radius */
+  cursor: pointer;
+  font-size: 1.05rem; /* Slightly larger font */
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: #e53e3e; /* More vibrant red */
+  font-size: 0.875em; /* Adjusted size */
+  margin-top: 0.25rem; /* Space above error */
+}
+
+.success-message {
+  color: #38a169; /* More vibrant green */
+  font-size: 0.9em;
+  padding: 12px; /* Adjusted padding */
+  border: 1px solid #9ae6b4; /* Softer green border */
+  background-color: #f0fff4; /* Very light green background */
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Added margin bottom */
+}
+
+/* General list styling */
+ul {
+  list-style-type: none;
+  padding-left: 0; /* Removed default padding */
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #edf2f7; /* Lighter border */
+}
+
+li:last-child {
+  border-bottom: none;
+}

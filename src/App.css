@@ -1,0 +1,33 @@
+/* body styling is now primarily in index.css */
+
+.container {
+  width: 90%; /* Increased width for better use of space */
+  max-width: 1200px; /* Max width for large screens */
+  margin: 2rem auto; /* Vertical margin and auto for horizontal centering */
+  overflow: hidden; /* Keep this if needed for float containment */
+  padding: 2rem; /* Increased padding */
+  background-color: #ffffff; /* Explicit white background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Softer, more modern shadow */
+  border-radius: 8px; /* Rounded corners for the main content container */
+}
+
+/* Responsive adjustments for the container */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0; /* Full width on small screens */
+    box-shadow: none; /* No shadow on very small screens */
+  }
+}

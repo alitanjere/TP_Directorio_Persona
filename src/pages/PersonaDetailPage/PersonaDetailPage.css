@@ -1,0 +1,49 @@
+.persona-detail-page {
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.persona-detail-page h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.persona-info {
+  margin-bottom: 1.5rem;
+}
+
+.persona-info p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.persona-info strong {
+  color: #2d3748;
+  margin-right: 8px;
+}
+
+.age-message {
+  padding: 10px 15px;
+  background-color: #e6f7ff; /* Light blue background */
+  border: 1px solid #91d5ff; /* Blue border */
+  color: #0050b3; /* Darker blue text */
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.persona-detail-page .button-like {
+  display: block; /* Make button take full width or inline-block for centered */
+  width: fit-content;
+  margin: 1.5rem auto 0; /* Center button */
+}

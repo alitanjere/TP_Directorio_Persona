@@ -1,0 +1,41 @@
+.persona-card {
+  border: 1px solid #e2e8f0; /* Lighter border, consistent with index.css table/form */
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08); /* Slightly softer shadow */
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Added shadow transition */
+  display: flex; /* Added flex for better internal alignment */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Push button to bottom */
+  height: 100%; /* Make cards in a row take same height if in a grid */
+}
+
+.persona-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12); /* Enhanced shadow on hover */
+}
+
+.persona-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem; /* Space below title */
+  color: #007bff;
+  font-size: 1.35rem; /* Slightly adjusted font size */
+}
+
+.persona-card p {
+  font-size: 1rem; /* Standardized font size */
+  color: #4a5568; /* Softer text color */
+  margin-bottom: 1rem; /* Space below paragraph */
+  flex-grow: 1; /* Allow paragraph to grow, pushing button down */
+}
+
+/* Using .button-like from index.css, no need to redefine its core properties.
+   Can add specific tweaks for card context if necessary. */
+.persona-card .button-like {
+  /* Example of a tweak: make button slightly smaller for cards */
+  padding: 8px 15px;
+  font-size: 0.9em;
+  /* margin-top: auto; Push button to the bottom if not using flex-grow on p */
+}

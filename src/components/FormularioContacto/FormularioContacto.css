@@ -1,0 +1,60 @@
+/* Core form styling (layout, max-width, padding, bg, shadow)
+   is inherited from global 'form' styles in index.css.
+   This file provides component-specific additions or overrides. */
+
+.contact-form {
+  /* Example: if you wanted a different max-width for this specific form */
+  /* max-width: 450px; */
+  gap: 18px; /* Slightly more spacing between form groups */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  /* No specific changes needed if index.css label styling is sufficient */
+}
+
+.form-group label {
+  /* Example: Specific label styling for this form if needed */
+  /* color: #007bff; */
+  margin-bottom: 6px; /* Ensure good space below label */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"] {
+  /* Inherits padding, border, border-radius, font-size from index.css */
+  /* Example: Specific input styling for this form if needed */
+  /* background-color: #fdfdff; */
+}
+
+.form-group input:focus {
+  /* Inherits focus styling from index.css */
+}
+
+/* Error and Success messages styling is primarily from index.css */
+/* This ensures consistency. We can add more specific styles here if needed. */
+
+.error-message {
+  /* Inherits color, font-size, margin-top from index.css */
+  /* Example: Add an icon to error messages */
+  /* content: "⚠️ "; */
+}
+
+.success-message {
+  /* Inherits styles from index.css */
+  text-align: center; /* Ensure it's centered if not already */
+  font-weight: 500; /* Slightly bolder success message */
+}
+
+.contact-form button[type="submit"] {
+  /* Inherits core button styling from index.css */
+  /* Example: Specific button styling for this form */
+  font-size: 1.1rem; /* Make button text slightly larger */
+  padding: 12px 20px; /* Ensure comfortable padding */
+  margin-top: 10px; /* Add some space above the button */
+}
+
+.contact-form button[type="submit"]:hover {
+  /* Inherits hover styling from index.css */
+}

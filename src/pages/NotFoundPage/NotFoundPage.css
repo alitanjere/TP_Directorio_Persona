@@ -1,0 +1,42 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh; /* Adjusted height, container padding will add to it */
+  text-align: center;
+  padding: 30px; /* Increased padding for content within the page */
+  background-color: #fff; /* Ensures white background if container is transparent or different */
+  border-radius: 8px; /* Consistent with container styling */
+  margin: 2rem auto; /* Consistent with container */
+  max-width: 800px; /* Control max width */
+}
+
+.not-found-page h1 {
+  font-size: 7rem; /* Larger 404 text */
+  color: #e53e3e; /* More vibrant red, consistent with error messages */
+  margin-bottom: 0.5rem; /* Space below 404 */
+  font-weight: bold;
+}
+
+.not-found-page h2 {
+  font-size: 2rem; /* Adjusted size */
+  color: #2d3748; /* Darker text */
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; /* Space below subtitle */
+  font-weight: 500;
+}
+
+.not-found-page p {
+  font-size: 1.15rem; /* Slightly larger paragraph text */
+  color: #4a5568; /* Softer text color */
+  margin-bottom: 2.5rem; /* More space before button */
+  max-width: 450px; /* Constrain width of paragraph for readability */
+  line-height: 1.7;
+}
+
+.not-found-page .button-like {
+  padding: 12px 30px; /* Generous padding for the button */
+  font-size: 1.1rem;
+  font-weight: 500;
+}

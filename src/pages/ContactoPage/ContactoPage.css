@@ -1,0 +1,28 @@
+.contacto-page {
+  padding: 0; /* Padding is handled by .container, can remove or reduce */
+  /* max-width: 600px; Let form style handle max-width if needed or keep for page section */
+  /* margin: 20px auto; Centering handled by .container and form's auto margin */
+  /* background-color: #f9f9f9; Let container handle background */
+  /* border-radius: 8px; Let container handle border-radius */
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.1); Let container handle shadow */
+}
+
+.contacto-page h2 {
+  text-align: center;
+  color: #2d3748; /* Darker heading color */
+  margin-bottom: 0.75rem; /* Adjusted margin */
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contacto-page p {
+  text-align: center;
+  color: #4a5568; /* Softer text color */
+  margin-bottom: 1.5rem; /* Space before the form */
+  font-size: 1.05rem;
+}
+
+/* The form itself will have its own styling via FormularioContacto.css
+   and the global form styles in index.css.
+   The .contacto-page is mostly for the title and introductory text.
+*/
